@@ -1,4 +1,3 @@
-# minimal runtime deps; avoid reinstalling system torch
 numpy
 Pillow
 av

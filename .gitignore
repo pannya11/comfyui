@@ -1,23 +1,21 @@
+# Python bytecode
 __pycache__/
 *.py[cod]
-/output/
-/input/
-!/input/example.png
-/models/
-/temp/
-/custom_nodes/
-!custom_nodes/example_node.py.example
-extra_model_paths.yaml
-/.vs
-.vscode/
-.idea/
+*.pyc
+
+# Virtual envs and caches
 venv/
-.venv/
-/web/extensions/*
-!/web/extensions/logging.js.example
-!/web/extensions/core/
-/tests-ui/data/object_info.json
-/user/
+env/
+*.egg-info/
+pip-log.txt
+pip-log.*
+
+# Logs / runtime files
 *.log
-web_custom_versions/
+comfy_run.log
+pip_install.log
+
+# OS / misc
 .DS_Store
+.idea/
+.vscode/
