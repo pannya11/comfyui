@@ -7,3 +7,4 @@ safetensors
 einops
 torch
 torchsde
+torchsde
