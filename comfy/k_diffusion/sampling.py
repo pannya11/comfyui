@@ -3,7 +3,13 @@ import math
 from scipy import integrate
 import torch
 from torch import nn
-import torchsde
+try:
+    import torchsde
+except Exception as e:
+    raise RuntimeError(
+        "Missing dependency 'torchsde'. Install it with `pip install torchsde` in the Python environment used to run ComfyUI." 
+    ) from e
+
 from tqdm.auto import trange, tqdm
 
 from . import utils
