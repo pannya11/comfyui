@@ -6,3 +6,5 @@ huggingface_hub
 safetensors
 einops
 torch
+torchsde
+torchsde
