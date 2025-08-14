@@ -10,3 +10,7 @@ huggingface_hub
 safetensors
 huggingface_hub
 safetensors
+huggingface_hub
+safetensors
+huggingface_hub
+safetensors
