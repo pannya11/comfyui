@@ -1,0 +1,648 @@
+=== DIAGNOSTIC: Thu Aug 14 14:28:06 UTC 2025 ===
+
+
+=== pwd & ls -la ===
+/teamspace/studios/this_studio/ComfyUI
+total 484
+drwxr-xr-x 1 fanvuepranav fanvuepranav  4096 Aug 14 14:28 .
+drwxr-xr-x 1 fanvuepranav fanvuepranav  4096 Aug 14 14:28 ..
+drwxr-xr-x 1 fanvuepranav fanvuepranav  4096 Aug 14 14:22 .ci
+drwxr-xr-x 1 fanvuepranav fanvuepranav  4096 Aug 14 14:23 .git
+-rwxr--r-- 1 fanvuepranav fanvuepranav    60 Feb 15 03:52 .gitattributes
+drwxr-xr-x 1 fanvuepranav fanvuepranav  4096 Aug 14 14:22 .github
+-rwxr--r-- 1 fanvuepranav fanvuepranav   339 Feb 15 03:52 .gitignore
+drwxr-xr-x 1 fanvuepranav fanvuepranav  4096 Aug 14 14:23 .vscode
+-rwxr--r-- 1 fanvuepranav fanvuepranav  1195 Feb 15 03:52 CODEOWNERS
+-rwxr--r-- 1 fanvuepranav fanvuepranav  1882 Feb 15 03:52 CONTRIBUTING.md
+-rwxr--r-- 1 fanvuepranav fanvuepranav 35149 Feb 15 03:52 LICENSE
+-rwxr--r-- 1 fanvuepranav fanvuepranav 22823 Feb 22 02:16 README.md
+drwxr-xr-x 1 fanvuepranav fanvuepranav  4096 Aug 14 14:23 __pycache__
+drwxr-xr-x 1 fanvuepranav fanvuepranav  4096 Aug 14 14:23 api_server
+drwxr-xr-x 1 fanvuepranav fanvuepranav  4096 Aug 14 14:23 app
+drwxr-xr-x 1 fanvuepranav fanvuepranav  4096 Aug 14 14:23 comfy
+drwxr-xr-x 1 fanvuepranav fanvuepranav  4096 Aug 14 14:23 comfy_execution
+drwxr-xr-x 1 fanvuepranav fanvuepranav  4096 Aug 14 14:23 comfy_extras
+-rwxr--r-- 1 fanvuepranav fanvuepranav   128 Feb 22 02:16 comfyui_version.py
+-rwxr--r-- 1 fanvuepranav fanvuepranav  3533 Feb 15 03:52 cuda_malloc.py
+drwxr-xr-x 1 fanvuepranav fanvuepranav  4096 Aug 14 14:23 custom_nodes
+-rw-r--r-- 1 fanvuepranav fanvuepranav   111 Aug 14 14:28 diagnostic.txt
+-rwxr--r-- 1 fanvuepranav fanvuepranav 39911 Feb 15 03:52 execution.py
+-rwxr--r-- 1 fanvuepranav fanvuepranav  1480 Feb 15 03:52 extra_model_paths.yaml.example
+-rwxr--r-- 1 fanvuepranav fanvuepranav   946 Feb 15 03:52 fix_torch.py
+-rwxr--r-- 1 fanvuepranav fanvuepranav 14854 Feb 15 03:52 folder_paths.py
+drwxr-xr-x 1 fanvuepranav fanvuepranav  4096 Aug 14 14:23 input
+-rwxr--r-- 1 fanvuepranav fanvuepranav  4349 Feb 15 03:52 latent_preview.py
+-rwxr--r-- 1 fanvuepranav fanvuepranav 11457 Feb 15 03:52 main.py
+drwxr-xr-x 1 fanvuepranav fanvuepranav  4096 Aug 14 14:22 models
+-rwxr--r-- 1 fanvuepranav fanvuepranav  1261 Feb 15 03:52 new_updater.py
+-rwxr--r-- 1 fanvuepranav fanvuepranav  1172 Feb 22 02:16 node_helpers.py
+-rwxr--r-- 1 fanvuepranav fanvuepranav 92653 Feb 22 02:16 nodes.py
+drwxr-xr-x 1 fanvuepranav fanvuepranav  4096 Aug 14 14:23 notebooks
+drwxr-xr-x 1 fanvuepranav fanvuepranav  4096 Aug 14 14:23 output
+-rwxr--r-- 1 fanvuepranav fanvuepranav   605 Feb 22 02:16 pyproject.toml
+-rwxr--r-- 1 fanvuepranav fanvuepranav   227 Feb 15 03:52 pytest.ini
+-rwxr--r-- 1 fanvuepranav fanvuepranav   259 Feb 22 02:16 requirements.txt
+drwxr-xr-x 1 fanvuepranav fanvuepranav  4096 Aug 14 14:23 script_examples
+-rwxr--r-- 1 fanvuepranav fanvuepranav 36308 Feb 15 03:52 server.py
+drwxr-xr-x 1 fanvuepranav fanvuepranav  4096 Aug 14 14:23 tests
+drwxr-xr-x 1 fanvuepranav fanvuepranav  4096 Aug 14 14:23 tests-unit
+drwxr-xr-x 1 fanvuepranav fanvuepranav  4096 Aug 14 14:26 user
+drwxr-xr-x 1 fanvuepranav fanvuepranav  4096 Aug 14 14:23 utils
+drwxr-xr-x 1 fanvuepranav fanvuepranav  4096 Aug 14 14:23 web
+
+
+=== git status & branch & remote ===
+# branch.oid b50ab153f96fd396ea26a76529f164c5ae3b50a6
+# branch.head master
+# branch.upstream origin/master
+# branch.ab +0 -0
+1 .D N... 100644 100644 000000 8bcfe584ae73d60e2c7a6f89b3f7befbd487ea34 8bcfe584ae73d60e2c7a6f89b3f7befbd487ea34 models/configs/anything_v3.yaml
+1 .D N... 100644 100644 000000 d4effe569e897369918625f9d8be5603a0e6a0d6 d4effe569e897369918625f9d8be5603a0e6a0d6 models/configs/v1-inference.yaml
+1 .D N... 100644 100644 000000 8bcfe584ae73d60e2c7a6f89b3f7befbd487ea34 8bcfe584ae73d60e2c7a6f89b3f7befbd487ea34 models/configs/v1-inference_clip_skip_2.yaml
+1 .D N... 100644 100644 000000 7eca31c7b5e571c2b1348e94ed9d69978ebd2d52 7eca31c7b5e571c2b1348e94ed9d69978ebd2d52 models/configs/v1-inference_clip_skip_2_fp16.yaml
+1 .D N... 100644 100644 000000 147f42b17b835cc839338156f99e8f971df5c1aa 147f42b17b835cc839338156f99e8f971df5c1aa models/configs/v1-inference_fp16.yaml
+1 .D N... 100644 100644 000000 45f3f82d461cd8c6109f26ec3b1da75366eda0b0 45f3f82d461cd8c6109f26ec3b1da75366eda0b0 models/configs/v1-inpainting-inference.yaml
+1 .D N... 100644 100644 000000 8ec8dfbfefe94ae8522c93017668fea78d580acf 8ec8dfbfefe94ae8522c93017668fea78d580acf models/configs/v2-inference-v.yaml
+1 .D N... 100644 100644 000000 d5c9b9cb29ca162ade44a7c922f59e75d7d57813 d5c9b9cb29ca162ade44a7c922f59e75d7d57813 models/configs/v2-inference-v_fp32.yaml
+1 .D N... 100644 100644 000000 152c4f3c2b36c3b246a9cb10eb8166134b0d2e1c 152c4f3c2b36c3b246a9cb10eb8166134b0d2e1c models/configs/v2-inference.yaml
+1 .D N... 100644 100644 000000 0d03231f3f2c2e8ef8fbe0d781e5f3d65409ef3a 0d03231f3f2c2e8ef8fbe0d781e5f3d65409ef3a models/configs/v2-inference_fp32.yaml
+1 .D N... 100644 100644 000000 32a9471d71b828c51bcbbabfe34c5f6c8282c803 32a9471d71b828c51bcbbabfe34c5f6c8282c803 models/configs/v2-inpainting-inference.yaml
+? diagnostic.txt
+* master b50ab153 [origin/master] Bump ComfyUI version to v0.3.15
+origin	https://github.com/comfyanonymous/ComfyUI.git (fetch)
+origin	https://github.com/comfyanonymous/ComfyUI.git (push)
+
+
+=== git check-ignore for custom_nodes ===
+
+
+=== .gitignore (first 200 lines) ===
+__pycache__/
+*.py[cod]
+/output/
+/input/
+!/input/example.png
+/models/
+/temp/
+/custom_nodes/
+!custom_nodes/example_node.py.example
+extra_model_paths.yaml
+/.vs
+.vscode/
+.idea/
+venv/
+.venv/
+/web/extensions/*
+!/web/extensions/logging.js.example
+!/web/extensions/core/
+/tests-ui/data/object_info.json
+/user/
+*.log
+web_custom_versions/
+.DS_Store
+
+
+=== show start.sh (if exists) ===
+NO start.sh
+
+
+=== show requirements.txt (if exists) ===
+torch
+torchsde
+torchvision
+torchaudio
+numpy>=1.25.0
+einops
+transformers>=4.28.1
+tokenizers>=0.13.3
+sentencepiece
+safetensors>=0.4.2
+aiohttp>=3.11.8
+yarl>=1.18.0
+pyyaml
+Pillow
+scipy
+tqdm
+psutil
+
+#non essential dependencies:
+kornia>=0.7.1
+spandrel
+soundfile
+av
+
+
+=== python & pip versions ===
+Python 3.10.10
+Python 3.10.10
+pip 23.3.2 from /home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/pip (python 3.10)
+
+
+=== pip freeze (top 200) ===
+absl-py==2.0.0
+addict==2.4.0
+aiofiles==22.1.0
+aiohttp==3.9.1
+aiosignal==1.3.1
+aiosqlite==0.19.0
+annotated-types==0.6.0
+antlr4-python3-runtime==4.9.3
+anyio==3.7.1
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+arrow==1.3.0
+asttokens==2.4.1
+async-timeout==4.0.3
+attrs==23.1.0
+Babel==2.14.0
+backoff==2.2.1
+beautifulsoup4==4.12.2
+bleach==6.1.0
+boto3==1.34.4
+botocore==1.34.4
+cachetools==5.3.2
+certifi==2023.11.17
+cffi==1.16.0
+chardet==5.2.0
+charset-normalizer==3.3.2
+click==8.1.7
+comm==0.2.0
+contourpy==1.2.0
+cryptography==44.0.1
+cycler==0.12.1
+debugpy==1.8.0
+decorator==5.1.1
+defusedxml==0.7.1
+Deprecated==1.2.18
+einops==0.7.0
+entrypoints==0.4
+exceptiongroup==1.2.0
+executing==2.0.1
+fastapi==0.105.0
+fastjsonschema==2.19.0
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.47.0
+fqdn==1.5.1
+frozenlist==1.4.1
+fsspec==2023.12.2
+ftfy==6.1.3
+fvcore==0.1.5.post20221221
+gitdb==4.0.12
+GitPython==3.1.44
+google-auth==2.25.2
+google-auth-oauthlib==1.2.0
+grpcio==1.60.0
+h11==0.14.0
+huggingface-hub==0.20.1
+idna==3.6
+imageio==2.33.1
+importlib-metadata==7.0.1
+iopath==0.1.10
+ipykernel==6.26.0
+ipython==8.17.2
+ipython-genutils==0.2.0
+ipywidgets==8.1.1
+isoduration==20.11.0
+jedi==0.19.1
+Jinja2==3.1.2
+jmespath==1.0.1
+joblib==1.3.2
+json5==0.9.14
+jsonpointer==2.4
+jsonschema==4.20.0
+jsonschema-specifications==2023.11.2
+jupyter-events==0.9.0
+jupyter-ydoc==0.2.5
+jupyter_client==7.4.9
+jupyter_core==5.5.1
+jupyter_server==2.12.1
+jupyter_server_fileid==0.9.1
+jupyter_server_terminals==0.5.0
+jupyter_server_ydoc==0.6.1
+jupyterlab==3.6.1
+jupyterlab-widgets==3.0.9
+jupyterlab_pygments==0.3.0
+jupyterlab_server==2.25.2
+kiwisolver==1.4.5
+kornia==0.8.0
+kornia_rs==0.1.8
+lazy_loader==0.3
+lightning==2.1.2
+lightning-cloud==0.5.57
+lightning-sdk==0.0.12a0
+lightning-utilities==0.10.0
+Markdown==3.5.1
+markdown-it-py==3.0.0
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+matrix-client==0.4.0
+mdurl==0.1.2
+mediapipe==0.10.9
+mistune==3.0.2
+mpmath==1.3.0
+multidict==6.0.4
+nbclassic==1.0.0
+nbclient==0.9.0
+nbconvert==7.13.0
+nbformat==5.9.2
+nest-asyncio==1.5.8
+networkx==3.2.1
+notebook==6.5.6
+notebook_shim==0.2.3
+numpy==1.26.2
+oauthlib==3.2.2
+omegaconf==2.3.0
+opencv-contrib-python==4.8.1.78
+opencv-python==4.8.1.78
+opencv-python-headless==4.8.1.78
+overrides==7.4.0
+packaging==23.2
+pandas==2.1.4
+pandocfilters==1.5.0
+parso==0.8.3
+pexpect==4.9.0
+Pillow==10.1.0
+platformdirs==4.1.0
+portalocker==2.8.2
+prettytable==3.6.0
+prometheus-client==0.19.0
+prompt-toolkit==3.0.43
+protobuf==3.20.3
+psutil==5.9.7
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycparser==2.21
+pydantic==2.5.2
+pydantic_core==2.14.5
+PyGithub==2.5.0
+Pygments==2.17.2
+PyJWT==2.8.0
+PyNaCl==1.5.0
+pyparsing==3.1.1
+python-dateutil==2.8.2
+python-json-logger==2.0.7
+python-multipart==0.0.6
+pytorch-lightning==2.1.2
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==24.0.1
+referencing==0.32.0
+regex==2023.10.3
+requests==2.31.0
+requests-oauthlib==1.3.1
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+rich==13.7.0
+rpds-py==0.15.2
+rsa==4.9
+s3transfer==0.9.0
+safetensors==0.5.2
+scikit-image==0.22.0
+scikit-learn==1.3.2
+scipy==1.11.4
+Send2Trash==1.8.2
+sentencepiece==0.2.0
+shellingham==1.5.4
+six==1.16.0
+smmap==5.0.2
+sniffio==1.3.0
+sounddevice==0.4.6
+soundfile==0.13.1
+soupsieve==2.5
+spandrel==0.4.1
+stack-data==0.6.3
+starlette==0.27.0
+sympy==1.12
+tabulate==0.9.0
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+termcolor==2.4.0
+terminado==0.18.0
+threadpoolctl==3.2.0
+tifffile==2023.12.9
+timm==0.6.7
+tinycss2==1.2.1
+tokenizers==0.15.0
+toml==0.10.2
+tomli==2.0.1
+torch==2.1.2+cu121
+torchaudio==2.1.2
+torchmetrics==1.2.0
+torchsde==0.2.6
+torchvision==0.16.2
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+trampoline==0.1.2
+transformers==4.36.2
+
+
+=== git ls-tree HEAD (list tracked files) ===
+.ci/update_windows/update.py
+.ci/update_windows/update_comfyui.bat
+.ci/update_windows/update_comfyui_stable.bat
+.ci/windows_base_files/README_VERY_IMPORTANT.txt
+.ci/windows_base_files/run_cpu.bat
+.ci/windows_base_files/run_nvidia_gpu.bat
+.ci/windows_nightly_base_files/run_nvidia_gpu_fast.bat
+.gitattributes
+.github/ISSUE_TEMPLATE/bug-report.yml
+.github/ISSUE_TEMPLATE/config.yml
+.github/ISSUE_TEMPLATE/feature-request.yml
+.github/ISSUE_TEMPLATE/user-support.yml
+.github/workflows/pullrequest-ci-run.yml
+.github/workflows/ruff.yml
+.github/workflows/stable-release.yml
+.github/workflows/stale-issues.yml
+.github/workflows/test-build.yml
+.github/workflows/test-ci.yml
+.github/workflows/test-launch.yml
+.github/workflows/test-unit.yml
+.github/workflows/update-frontend.yml
+.github/workflows/update-version.yml
+.github/workflows/windows_release_dependencies.yml
+.github/workflows/windows_release_nightly_pytorch.yml
+.github/workflows/windows_release_package.yml
+.gitignore
+CODEOWNERS
+CONTRIBUTING.md
+LICENSE
+README.md
+api_server/__init__.py
+api_server/routes/__init__.py
+api_server/routes/internal/README.md
+api_server/routes/internal/__init__.py
+api_server/routes/internal/internal_routes.py
+api_server/services/__init__.py
+api_server/services/terminal_service.py
+api_server/utils/file_operations.py
+app/__init__.py
+app/app_settings.py
+app/custom_node_manager.py
+app/frontend_management.py
+app/logger.py
+app/model_manager.py
+app/user_manager.py
+comfy/checkpoint_pickle.py
+comfy/cldm/cldm.py
+comfy/cldm/control_types.py
+comfy/cldm/dit_embedder.py
+comfy/cldm/mmdit.py
+comfy/cli_args.py
+comfy/clip_config_bigg.json
+comfy/clip_model.py
+comfy/clip_vision.py
+comfy/clip_vision_config_g.json
+comfy/clip_vision_config_h.json
+comfy/clip_vision_config_vitl.json
+comfy/clip_vision_config_vitl_336.json
+comfy/clip_vision_siglip_384.json
+comfy/comfy_types/README.md
+comfy/comfy_types/__init__.py
+comfy/comfy_types/examples/example_nodes.py
+comfy/comfy_types/examples/input_options.png
+comfy/comfy_types/examples/input_types.png
+comfy/comfy_types/examples/required_hint.png
+comfy/comfy_types/node_typing.py
+comfy/conds.py
+comfy/controlnet.py
+comfy/diffusers_convert.py
+comfy/diffusers_load.py
+comfy/extra_samplers/uni_pc.py
+comfy/float.py
+comfy/gligen.py
+comfy/hooks.py
+comfy/k_diffusion/deis.py
+comfy/k_diffusion/sampling.py
+comfy/k_diffusion/utils.py
+comfy/latent_formats.py
+comfy/ldm/audio/autoencoder.py
+comfy/ldm/audio/dit.py
+comfy/ldm/audio/embedders.py
+comfy/ldm/aura/mmdit.py
+comfy/ldm/cascade/common.py
+comfy/ldm/cascade/controlnet.py
+comfy/ldm/cascade/stage_a.py
+comfy/ldm/cascade/stage_b.py
+comfy/ldm/cascade/stage_c.py
+comfy/ldm/cascade/stage_c_coder.py
+comfy/ldm/common_dit.py
+comfy/ldm/cosmos/blocks.py
+comfy/ldm/cosmos/cosmos_tokenizer/layers3d.py
+comfy/ldm/cosmos/cosmos_tokenizer/patching.py
+comfy/ldm/cosmos/cosmos_tokenizer/utils.py
+comfy/ldm/cosmos/model.py
+comfy/ldm/cosmos/position_embedding.py
+comfy/ldm/cosmos/vae.py
+comfy/ldm/flux/controlnet.py
+comfy/ldm/flux/layers.py
+comfy/ldm/flux/math.py
+comfy/ldm/flux/model.py
+comfy/ldm/flux/redux.py
+comfy/ldm/genmo/joint_model/asymm_models_joint.py
+comfy/ldm/genmo/joint_model/layers.py
+comfy/ldm/genmo/joint_model/rope_mixed.py
+comfy/ldm/genmo/joint_model/temporal_rope.py
+comfy/ldm/genmo/joint_model/utils.py
+comfy/ldm/genmo/vae/model.py
+comfy/ldm/hunyuan_video/model.py
+comfy/ldm/hydit/attn_layers.py
+comfy/ldm/hydit/controlnet.py
+comfy/ldm/hydit/models.py
+comfy/ldm/hydit/poolers.py
+comfy/ldm/hydit/posemb_layers.py
+comfy/ldm/lightricks/model.py
+comfy/ldm/lightricks/symmetric_patchifier.py
+comfy/ldm/lightricks/vae/causal_conv3d.py
+comfy/ldm/lightricks/vae/causal_video_autoencoder.py
+comfy/ldm/lightricks/vae/conv_nd_factory.py
+comfy/ldm/lightricks/vae/dual_conv3d.py
+comfy/ldm/lightricks/vae/pixel_norm.py
+comfy/ldm/lumina/model.py
+comfy/ldm/models/autoencoder.py
+comfy/ldm/modules/attention.py
+comfy/ldm/modules/diffusionmodules/__init__.py
+comfy/ldm/modules/diffusionmodules/mmdit.py
+comfy/ldm/modules/diffusionmodules/model.py
+comfy/ldm/modules/diffusionmodules/openaimodel.py
+comfy/ldm/modules/diffusionmodules/upscaling.py
+comfy/ldm/modules/diffusionmodules/util.py
+comfy/ldm/modules/distributions/__init__.py
+comfy/ldm/modules/distributions/distributions.py
+comfy/ldm/modules/ema.py
+comfy/ldm/modules/encoders/__init__.py
+comfy/ldm/modules/encoders/noise_aug_modules.py
+comfy/ldm/modules/sub_quadratic_attention.py
+comfy/ldm/modules/temporal_ae.py
+comfy/ldm/pixart/blocks.py
+comfy/ldm/pixart/pixartms.py
+comfy/ldm/util.py
+comfy/lora.py
+comfy/lora_convert.py
+comfy/model_base.py
+comfy/model_detection.py
+comfy/model_management.py
+comfy/model_patcher.py
+comfy/model_sampling.py
+comfy/ops.py
+comfy/options.py
+comfy/patcher_extension.py
+comfy/sample.py
+comfy/sampler_helpers.py
+comfy/samplers.py
+comfy/sd.py
+comfy/sd1_clip.py
+comfy/sd1_clip_config.json
+comfy/sd1_tokenizer/merges.txt
+comfy/sd1_tokenizer/special_tokens_map.json
+comfy/sd1_tokenizer/tokenizer_config.json
+comfy/sd1_tokenizer/vocab.json
+comfy/sdxl_clip.py
+comfy/supported_models.py
+comfy/supported_models_base.py
+comfy/t2i_adapter/adapter.py
+comfy/taesd/taesd.py
+comfy/text_encoders/aura_t5.py
+comfy/text_encoders/bert.py
+comfy/text_encoders/cosmos.py
+comfy/text_encoders/flux.py
+comfy/text_encoders/genmo.py
+comfy/text_encoders/hunyuan_video.py
+comfy/text_encoders/hydit.py
+comfy/text_encoders/hydit_clip.json
+comfy/text_encoders/hydit_clip_tokenizer/special_tokens_map.json
+comfy/text_encoders/hydit_clip_tokenizer/tokenizer_config.json
+comfy/text_encoders/hydit_clip_tokenizer/vocab.txt
+comfy/text_encoders/llama.py
+comfy/text_encoders/llama_tokenizer/tokenizer.json
+comfy/text_encoders/llama_tokenizer/tokenizer_config.json
+comfy/text_encoders/long_clipl.json
+comfy/text_encoders/long_clipl.py
+comfy/text_encoders/lt.py
+comfy/text_encoders/lumina2.py
+comfy/text_encoders/mt5_config_xl.json
+comfy/text_encoders/pixart_t5.py
+comfy/text_encoders/sa_t5.py
+comfy/text_encoders/sd2_clip.py
+comfy/text_encoders/sd2_clip_config.json
+comfy/text_encoders/sd3_clip.py
+comfy/text_encoders/spiece_tokenizer.py
+comfy/text_encoders/t5.py
+comfy/text_encoders/t5_config_base.json
+comfy/text_encoders/t5_config_xxl.json
+comfy/text_encoders/t5_old_config_xxl.json
+comfy/text_encoders/t5_pile_config_xl.json
+comfy/text_encoders/t5_pile_tokenizer/tokenizer.model
+comfy/text_encoders/t5_tokenizer/special_tokens_map.json
+comfy/text_encoders/t5_tokenizer/tokenizer.json
+comfy/text_encoders/t5_tokenizer/tokenizer_config.json
+comfy/utils.py
+comfy_execution/caching.py
+comfy_execution/graph.py
+comfy_execution/graph_utils.py
+comfy_execution/validation.py
+comfy_extras/chainner_models/model_loading.py
+comfy_extras/nodes_advanced_samplers.py
+comfy_extras/nodes_align_your_steps.py
+comfy_extras/nodes_attention_multiply.py
+comfy_extras/nodes_audio.py
+comfy_extras/nodes_canny.py
+comfy_extras/nodes_clip_sdxl.py
+comfy_extras/nodes_compositing.py
+comfy_extras/nodes_cond.py
+comfy_extras/nodes_controlnet.py
+comfy_extras/nodes_cosmos.py
+comfy_extras/nodes_custom_sampler.py
+comfy_extras/nodes_differential_diffusion.py
+comfy_extras/nodes_flux.py
+comfy_extras/nodes_freelunch.py
+comfy_extras/nodes_gits.py
+comfy_extras/nodes_hooks.py
+comfy_extras/nodes_hunyuan.py
+comfy_extras/nodes_hypernetwork.py
+comfy_extras/nodes_hypertile.py
+comfy_extras/nodes_images.py
+comfy_extras/nodes_ip2p.py
+comfy_extras/nodes_latent.py
+comfy_extras/nodes_load_3d.py
+comfy_extras/nodes_lora_extract.py
+comfy_extras/nodes_lt.py
+comfy_extras/nodes_lumina2.py
+comfy_extras/nodes_mahiro.py
+comfy_extras/nodes_mask.py
+comfy_extras/nodes_mochi.py
+comfy_extras/nodes_model_advanced.py
+comfy_extras/nodes_model_downscale.py
+comfy_extras/nodes_model_merging.py
+comfy_extras/nodes_model_merging_model_specific.py
+comfy_extras/nodes_morphology.py
+comfy_extras/nodes_pag.py
+comfy_extras/nodes_perpneg.py
+comfy_extras/nodes_photomaker.py
+comfy_extras/nodes_pixart.py
+comfy_extras/nodes_post_processing.py
+comfy_extras/nodes_rebatch.py
+comfy_extras/nodes_sag.py
+comfy_extras/nodes_sd3.py
+comfy_extras/nodes_sdupscale.py
+comfy_extras/nodes_slg.py
+comfy_extras/nodes_stable3d.py
+comfy_extras/nodes_stable_cascade.py
+comfy_extras/nodes_tomesd.py
+comfy_extras/nodes_torch_compile.py
+comfy_extras/nodes_upscale_model.py
+comfy_extras/nodes_video.py
+comfy_extras/nodes_video_model.py
+comfy_extras/nodes_webcam.py
+comfyui_version.py
+cuda_malloc.py
+custom_nodes/example_node.py.example
+custom_nodes/websocket_image_save.py
+execution.py
+extra_model_paths.yaml.example
+fix_torch.py
+folder_paths.py
+input/example.png
+latent_preview.py
+main.py
+models/checkpoints/put_checkpoints_here
+models/clip/put_clip_or_text_encoder_models_here
+models/clip_vision/put_clip_vision_models_here
+models/configs/anything_v3.yaml
+models/configs/v1-inference.yaml
+models/configs/v1-inference_clip_skip_2.yaml
+models/configs/v1-inference_clip_skip_2_fp16.yaml
+models/configs/v1-inference_fp16.yaml
+models/configs/v1-inpainting-inference.yaml
+models/configs/v2-inference-v.yaml
+models/configs/v2-inference-v_fp32.yaml
+models/configs/v2-inference.yaml
+models/configs/v2-inference_fp32.yaml
+models/configs/v2-inpainting-inference.yaml
+models/controlnet/put_controlnets_and_t2i_here
+models/diffusers/put_diffusers_models_here
+models/diffusion_models/put_diffusion_model_files_here
+models/embeddings/put_embeddings_or_textual_inversion_concepts_here
+models/gligen/put_gligen_models_here
+models/hypernetworks/put_hypernetworks_here
+models/loras/put_loras_here
+models/photomaker/put_photomaker_models_here
+models/style_models/put_t2i_style_model_here
+models/text_encoders/put_text_encoder_files_here
+models/unet/put_unet_files_here
+models/upscale_models/put_esrgan_and_other_upscale_models_here
+models/vae/put_vae_here
+models/vae_approx/put_taesd_encoder_pth_and_taesd_decoder_pth_here
+new_updater.py
+node_helpers.py
+nodes.py
+notebooks/comfyui_colab.ipynb
+output/_output_images_will_be_put_here
+
+
+=== last 100 lines of comfy_run.log (if present) ===
+NO comfy_run.log yet
