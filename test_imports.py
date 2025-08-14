@@ -1,5 +1,5 @@
 import importlib, sys
-mods = ["einops","safetensors","huggingface_hub","torch","torchvision"]
+mods = ["einops","safetensors","huggingface_hub","torch","torchvision","torchsde"]
 errs = 0
 for m in mods:
     try:
